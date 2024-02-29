@@ -1,0 +1,13 @@
+REM shutdown the windows target using cmd 
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING shutdown /f
+ENTER
+DELAY 1000
+STRING exit
+ENTER
